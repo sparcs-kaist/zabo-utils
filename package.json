@@ -3,9 +3,10 @@
     "version": "0.0.2",
     "description": "Utility functions & variables used in ZABO project",
     "keywords": [
-        "zabo",
-        "sparcs",
-        "kaist",
+        "ZABO",
+        "SPARCS",
+        "KAIST",
+        "sparcs-kaist",
         "poster"
     ],
     "homepage": "https://zabo.sparcs.org",
@@ -13,16 +14,20 @@
         "url": "https://github.com/sparcs-kaist/zabo-utils/issues",
         "email": "zabo@sparcs.org"
     },
-    "license": "MIT",
     "author": {
         "name": "Dongjin Jung",
         "email": "jung_dj@kaist.ac.kr",
         "url": "https://github.com/jungdj"
     },
-    "main": "lib/main.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/sparcs-kaist/zabo-utils.git"
+    },
+    "license": "MIT",
+    "main": "dist/main.js",
+    "types": "dist/main.d.ts",
+    "scripts": {
+        "build": "tsc"
     },
     "files": [
         "dist",
@@ -30,5 +35,8 @@
         "!dist/test"
     ],
     "dependencies": {},
-    "peerDependencies": {}
+    "peerDependencies": {},
+    "devDependencies": {
+        "typescript": "^3.7.4"
+    }
 }
