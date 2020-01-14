@@ -29,7 +29,7 @@
     "scripts": {
         "test": "jest",
         "build": "yarn lint && tsc",
-        "lint": "eslint ./lib"
+        "lint": "eslint ./lib/**/*.ts --fix"
     },
     "files": [
         "dist",
