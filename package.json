@@ -27,6 +27,7 @@
     "main": "dist/main.js",
     "types": "dist/main.d.ts",
     "scripts": {
+        "test": "jest",
         "build": "tsc"
     },
     "files": [
