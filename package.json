@@ -29,10 +29,6 @@
         "lib",
         "!dist/test"
     ],
-    "dependencies": {
-
-    },
-    "peerDependencies": {
-
-    }
+    "dependencies": {},
+    "peerDependencies": {}
 }
