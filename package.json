@@ -19,7 +19,7 @@
         "email": "jung_dj@kaist.ac.kr",
         "url": "https://github.com/jungdj"
     },
-    "main": "dist/main.min.js",
+    "main": "lib/main.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/sparcs-kaist/zabo-utils.git"
