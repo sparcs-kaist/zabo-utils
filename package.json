@@ -28,7 +28,8 @@
     "types": "dist/main.d.ts",
     "scripts": {
         "test": "jest",
-        "build": "tsc"
+        "build": "yarn lint && tsc",
+        "lint": "eslint ./lib"
     },
     "files": [
         "dist",
@@ -40,6 +41,11 @@
     "peerDependencies": {},
     "devDependencies": {
         "@types/jest": "^24.0.25",
+        "@typescript-eslint/eslint-plugin": "^2.16.0",
+        "@typescript-eslint/parser": "^2.16.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.20.0",
         "jest": "^24.9.0",
         "ts-jest": "^24.3.0",
         "typescript": "^3.7.4"
