@@ -1,0 +1,38 @@
+{
+    "name": "zabo-utils",
+    "version": "0.0.1",
+    "description": "Utility functions & variables used in ZABO project",
+    "keywords": [
+        "zabo",
+        "sparcs",
+        "kaist",
+        "poster"
+    ],
+    "homepage": "https://zabo.sparcs.org",
+    "bugs": {
+        "url": "https://github.com/sparcs-kaist/zabo-utils/issues",
+        "email": "zabo@sparcs.org"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Dongjin Jung",
+        "email": "jung_dj@kaist.ac.kr",
+        "url": "https://github.com/jungdj"
+    },
+    "main": "dist/main.min.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sparcs-kaist/zabo-utils.git"
+    },
+    "files": [
+        "dist",
+        "lib",
+        "!dist/test"
+    ],
+    "dependencies": {
+
+    },
+    "peerDependencies": {
+
+    }
+}
